@@ -1,0 +1,33 @@
+/* pages/user/user.wxss */
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-img{
+  width: 90px;
+  height: 90px;
+}
+
+
+/* pages/list/list.wxss */
+.section{
+  padding:0 2%;
+  border-bottom:3px solid #eee;
+}
+.person{
+  width: 25px;
+  height: 25px;
+}
+.content{
+  font-size:14px;
+  color:#333;
+  line-height: 30px;
+}
+.answer{
+  font-size:16px;
+  color:#333;
+  margin-top:10rpx;
+  display: flex;
+  justify-content: space-between
+}
